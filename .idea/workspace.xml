@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77842ca5-4275-4826-8cf6-080d6fa6269c" name="Default Changelist" comment="" />
+    <list default="true" id="77842ca5-4275-4826-8cf6-080d6fa6269c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/accounts/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/accounts/templates/includes/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/accounts/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/accounts/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/accounts/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/boards/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/boards/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/boards/templates/includes/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/boards/templates/new_topic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/boards/templates/reply_topic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/boards/templates/topic_posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/boards/templates/topics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/firstproject/static/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/firstproject/boards/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/firstproject/boards/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/firstproject/boards/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/firstproject/boards/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/firstproject/boards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/firstproject/boards/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/firstproject/firstproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/firstproject/firstproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/firstproject/firstproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/firstproject/firstproject/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +32,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/home.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="-745">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/topic_posts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/reply_topic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/topics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1107">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/firstproject/firstproject/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3510">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/url.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,32 +114,53 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/myproject/firstproject/polls/url.py" />
-        <option value="$PROJECT_DIR$/myproject/firstproject/boards/url.py" />
         <option value="$PROJECT_DIR$/myproject/firstproject/boards/models.py" />
-        <option value="$PROJECT_DIR$/myproject/firstproject/boards/views.py" />
-        <option value="$PROJECT_DIR$/myproject/firstproject/firstproject/settings.py" />
-        <option value="$PROJECT_DIR$/myproject/firstproject/firstproject/urls.py" />
         <option value="$PROJECT_DIR$/myproject/firstproject/boards/admin.py" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/templates/topids.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/static/css/app.css" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/templates/includes/form.html" />
         <option value="$PROJECT_DIR$/myproject/firstproject/boards/templates/home.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/firstproject/urls.py" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/accounts/templates/includes/form.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/accounts/forms.py" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/accounts/url.py" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/accounts/templates/signup.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/accounts/templates/base.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/templates/base.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/templates/new_topic.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/firstproject/settings.py" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/accounts/templates/login.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/accounts/views.py" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/templates/topics.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/url.py" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/views.py" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/forms.py" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/templates/topic_posts.html" />
+        <option value="$PROJECT_DIR$/myproject/firstproject/boards/templates/reply_topic.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="594" />
-    <option name="y" value="125" />
-    <option name="width" value="904" />
-    <option name="height" value="855" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="508" />
+    <option name="width" value="1929" />
+    <option name="height" value="497" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,16 +194,30 @@
               <item name="boards" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Django_projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_projects" type="462c0819:PsiDirectoryNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="firstproject" type="462c0819:PsiDirectoryNode" />
+              <item name="firstproject" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django_techcampus-master" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django_techcampus_Final-master" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\masho\Desktop\Django_projects\myproject\firstproject\static\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,21 +245,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="594" y="125" width="904" height="855" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20819935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22655427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.25785482" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6268041" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -153,16 +272,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/firstproject/polls/url.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -186,20 +295,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/views.py">
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/topids.html" />
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/static/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/firstproject/firstproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3355">
-          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -213,12 +313,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/includes/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="20" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/accounts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/accounts/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myproject/firstproject/firstproject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="281">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/accounts/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/accounts/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/new_topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="31" lean-forward="true" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/firstproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/accounts/templates/includes/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -226,17 +422,58 @@
     <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="262">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/accounts/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="84" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/topics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/reply_topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/firstproject/boards/templates/topic_posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>

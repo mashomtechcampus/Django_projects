@@ -1,27 +1,16 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-<head>
+{% extends 'base.html'%}
 
-	<meta charset="utf-8">
-	<title>Boards</title>
-	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-</head>
-<body style= "background-color: #ececec">
-	<nav class="navbar navbar-light" style="background-color: #385170; height: 80px;">
-  <!-- Navbar content -->
-  <h3 style="color: #fff;text-align:center;">Welcom To My Site   Mas'hom ALJeDaNi </h3>
-	</nav>
-	<div class="container">
-		<ol class="breadcrumb my-4"style="background-color: #9fd3c7;border:solid 1PX #CCC">
-			<li class="breadcrump-item active">Boards</li>
-		</ol>
-		<table class="table" style="border:solid 1PX #CCC">
+	{%block breadcrumb%}
+	<li class="breadcrumb-item active">Boards </li>
+		{%endblock%}
+
+	{%block content%}
+		<table class="table">
 			<thead class="thead-inverse">
-				<tr style="border:solid 1PX #CCC;background-color: #385170;color: #fff">
-					<th>Boars</th>
-					<th>Post</th>
-					<th>Topic</th>
+				<tr>
+					<th>Board</th>
+					<th>Posts</th>
+					<th>Topics</th>
 					<th>Last Post</th>
 				</tr>
 			</thead>
@@ -29,7 +18,7 @@
 				{% for board in boards %}
 				<tr>
 					<td>
-						{{board.name}}
+						<a href="{% url 'boards_topic' board.pk %}"> {{board.name}}</a>
 					  <small class="text-muted d-block">{{board.description}}</small>
 					</td>
 					 <td class="align-middle">0</td>
@@ -40,5 +29,4 @@
 				{% endfor %}
 			</tbody>
 		</table>
-</body>
-</html>
+     {%endblock%}
